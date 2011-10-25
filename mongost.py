@@ -25,7 +25,7 @@ parser.add_argument('--host', help='Host to connect to - default 127.0.0.1:27017
 parser.add_argument('--max-lag', help='Max acceptable lag from PRIMARY in seconds')
 parser.add_argument('--freeze', help='Seconds to freeze this server for if otherwise ok')
 parser.add_argument('--quiet', help='Do not display as much output')
-parser.set_defaults(queit=True, freeze=0, host='127.0.0.1:27017', max_lag=10)
+parser.set_defaults(quiet=True, freeze=0, host='127.0.0.1:27017', max_lag=10)
 args = parser.parse_args()
 
 
