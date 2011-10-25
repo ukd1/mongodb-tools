@@ -13,7 +13,7 @@
 #
 # @author:      Russell Smith <russell.smith@ukd1.co.uk>
 # @copyright:   UKD1 Limited 2011
-# @licence:     MIT Licence
+# @licence:     MIT License
 
 from pymongo import Connection
 from datetime import *
